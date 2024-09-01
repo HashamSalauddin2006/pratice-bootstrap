@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
  body{
     background-color: #f1f3f4;
     font-family: sans-serif;
-    
+
 }
 .top_nav_bar{
     height: 57px;
@@ -38,14 +38,14 @@
     background: orange;
     margin: 8.5px 10px 3px 0;
     border-radius:0px 50px 50px 0px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 .search_box{
     display: inline-flex;
     width: 80%;
 }
 .fome_control{
-    width: 50%;
+    width: 50;
     height: 38px;
 }
 .fa-solid{
@@ -57,7 +57,7 @@
 .menu_bar{
     width: 50px;
     height: 57px;   
-    float: right;
+    float:
 }
 .menu_bar ul{
     display: inline-flex;
@@ -107,18 +107,23 @@
     
 } 
 .navbar-nav {
-    margin-right: 50px !important;
+    margin-right: 50px !important;/
 }
 
 
-
+ */
 
 /* my style */
 .main_navbar{
     display: flex;
-    /* justify-content: space-between; */
+    /* align-items: center; */
     
 }
+h1{
+    color: orange;
+    margin-left: 10px;
+}
+
 .cards_bar{
     display: flex;
     align-items: center;
@@ -130,11 +135,13 @@
 .cards_bar{
     width: 50px;
     height: 57px;   
-    float: right;
+    /* margin-left: 13.9%; */
 }
 .cards_bar ul{
-    display: inline-flex;
-    float: right;
+    display: flex;
+    margin-left: 100px;
+
+    
 
 }
 .cards_bar ul li{
@@ -146,6 +153,7 @@
     cursor: pointer;
 }
 .cards_bar ul li a{
+    
     font-size: 16px;
     font-weight: bold;
     color: #fff;
@@ -169,5 +177,18 @@
     margin: 8.5px 10px 3px 0;
     border-radius:0px 50px 50px 0px;
     cursor: pointer;
-    margin-left: 0.1px;
+    height: 39px;
+}
+.fome_control{
+    margin-top: 9px;
+    margin-left: 30px;
+
+    border: 1px solid orange !important;  
+    box-shadow: none !important;
+    border-radius: 60px 0 0px 60px;
+
+}
+.fome_control{
+    width: 50;
+    height: 38px;
 }
