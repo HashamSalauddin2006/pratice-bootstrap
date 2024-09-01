@@ -170,6 +170,7 @@ h1{
     color: #fff;
     margin-left: 12px;
     margin-top: 12px;
+    color: red !important;
 }
 
 .input_group_text{
